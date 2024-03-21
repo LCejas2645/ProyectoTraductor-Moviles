@@ -38,12 +38,5 @@ public class SegundaActivity extends AppCompatActivity {
             }
         });
 
-
-//        viewModel.getPalabra().observe(this, palabraObservada -> {
-//            if (palabraObservada != null) {
-//                binding.tvIngles.setText(palabraObservada.getPalabraIngles());
-//                binding.imageView.setImageResource(palabraObservada.getImagenId());
-//            }
-//        });
     }
 }
